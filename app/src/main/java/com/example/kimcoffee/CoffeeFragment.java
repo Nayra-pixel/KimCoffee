@@ -25,12 +25,12 @@ public class CoffeeFragment extends Fragment {
 
         idRecyclerViewCoffee = view.findViewById(R.id.idRecyclerViewCoffee);
         lstCoffee = new ArrayList<>();
-        lstCoffee.add(new Coffee(R.drawable.coffeeum,"Cappuccino"));
-        lstCoffee.add(new Coffee(R.drawable.coffeedois,"Mocaccino"));
-        lstCoffee.add(new Coffee(R.drawable.coffeetres,"Mocha"));
-        lstCoffee.add(new Coffee(R.drawable.coffeequatro,"Expresso"));
-        lstCoffee.add(new Coffee(R.drawable.coffeecinco,"Chocolate Quente"));
-        lstCoffee.add(new Coffee(R.drawable.coffeeseis,"Lungo"));
+        lstCoffee.add(new Coffee(R.drawable.coffeeum,"Cappuccino", "Combinação perfeita de café, leite e espuma cremosa, com toque suave e aconchegante."));
+        lstCoffee.add(new Coffee(R.drawable.coffeedois,"Latte Macchiato", "Leite vaporizado aveludado com uma delicada dose de espresso, sabor leve e equilibrado."));
+        lstCoffee.add(new Coffee(R.drawable.coffeetres,"Mocha Chocolate", "Mistura de café e chocolate com leite cremoso, resultando em uma bebida doce e marcante."));
+        lstCoffee.add(new Coffee(R.drawable.coffeequatro,"Expresso", "Intenso e aromático, preparado com grãos selecionados para um sabor encorpado."));
+        lstCoffee.add(new Coffee(R.drawable.coffeecinco,"Café com Leite", "Clássico e simples: meio a meio de café e leite quente para um gosto suave e familiar."));
+        lstCoffee.add(new Coffee(R.drawable.coffeeseis,"Café Gelado", "Refrescante e leve, preparado com café extraído a frio e servido com gelo."));
 
         AdaptadorCoffee adapteracess = new AdaptadorCoffee(getContext(), lstCoffee);
 
