@@ -25,8 +25,7 @@ public class MuffinFragment extends Fragment {
 
         lstMuffin = new ArrayList<>();
         idRecyclerViewMuffin = view.findViewById(R.id.idRecyclerViewMuffin);
-
-        lstMuffin.add(new Muffin(R.drawable.muffinum, "Muffin de Chocolate", "Macio, úmido e cheio de pedaços de chocolate ao leite derretido."));
+        lstMuffin.add(new Muffin(R.drawable.muffinum, "Muffin de Chocolate","Macio, úmido e cheio de pedaços de chocolate ao leite derretido."));
         lstMuffin.add(new Muffin(R.drawable.muffindois, "Muffin de Blueberry", "Recheado com blueberries frescas que explodem ao morder."));
         lstMuffin.add(new Muffin(R.drawable.muffintres, "Muffin de Banana", "Feito com banana madura, aroma adocicado e textura fofinha."));
         lstMuffin.add(new Muffin(R.drawable.muffinquatro, "Muffin de Maçã e Canela", "Perfeito para manhãs aconchegantes, com toque aromático de canela."));
