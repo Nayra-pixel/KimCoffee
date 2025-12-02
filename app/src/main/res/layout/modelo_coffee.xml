@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="300dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idNomeCoffee"
+            android:text="Nome do Produto"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:id="@+id/imgCardCoffee"
+            android:layout_below="@id/idNomeCoffee"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/descCardCoffee"
+            android:text="Descrição:"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/imgCardCoffee"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/idStar"
+            android:src="@drawable/baseline_star"
+            android:layout_below="@id/descCardCoffee"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,5"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_below="@id/descCardCoffee"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/idFavorite"
+            android:src="@drawable/baseline_favorite"
+            android:layout_below="@id/descCardCoffee"
+            android:layout_marginLeft="150dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/idShare"
+            android:src="@drawable/baseline_share"
+            android:layout_below="@id/descCardCoffee"
+            android:layout_marginLeft="180dp"/>
+
+
+    </RelativeLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,10 +1,8 @@
+package br.com.etecia.kimcoffee;
+
 public class Coffee {
 
     private String IdNomeCoffee;
-    public String getIdNomeCoffee() {
-        return IdNomeCoffee;
-    }
-
     public void setIdNomeCoffee(String idNomeCoffee) {
         IdNomeCoffee = idNomeCoffee;
     }
@@ -27,8 +25,6 @@ public class Coffee {
         this.descCardCoffee = descCardCoffee;
     }
 
-
-
-
-
+    public int getIdNomeCoffee() {
+    }
 }
