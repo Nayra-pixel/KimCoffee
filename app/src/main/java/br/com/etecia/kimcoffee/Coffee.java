@@ -2,9 +2,20 @@ package br.com.etecia.kimcoffee;
 
 public class Coffee {
 
-    private String IdNomeCoffee;
+    public Coffee(int imgCardCoffee, String idNomeCoffee, String descCardCoffee) {
+        this.imgCardCoffee = imgCardCoffee;
+        this.idNomeCoffee = idNomeCoffee;
+        this.descCardCoffee = descCardCoffee;
+    }
+
+    private String idNomeCoffee;
+
+    public String getIdNomeCoffee() {
+        return idNomeCoffee;
+    }
+
     public void setIdNomeCoffee(String idNomeCoffee) {
-        IdNomeCoffee = idNomeCoffee;
+        this.idNomeCoffee = idNomeCoffee;
     }
 
     private int imgCardCoffee;
@@ -25,6 +36,4 @@ public class Coffee {
         this.descCardCoffee = descCardCoffee;
     }
 
-    public int getIdNomeCoffee() {
-    }
 }

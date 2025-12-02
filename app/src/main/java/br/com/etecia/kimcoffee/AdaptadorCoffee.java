@@ -1,4 +1,4 @@
-package br.com.etecia.kimcoffe;
+package br.com.etecia.kimcoffee;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -41,6 +41,8 @@ public class AdaptadorCoffee extends RecyclerView.Adapter<AdaptadorCoffee.ViewHo
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.idNomeCoffee.setText(lstCoffee.get(position).getIdNomeCoffee());
         holder.imgCardCoffee.setImageResource(lstCoffee.get(position).getImgCardCoffee());
+        holder.descCardCoffee.setText(lstCoffee.get(position).getDescCardCoffee());
+
     }
 
     @Override
